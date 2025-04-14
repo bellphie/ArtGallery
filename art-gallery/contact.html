@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>📞 Contáctanos</h1>
+    <p>Teléfono: +56 9 1234 5678</p>
+    <p>Correo electrónico: contacto@galeriaprisma.cl <p></p>
+    <p>¿Tienes preguntas, quieres agendar una visita guiada o estás interesado/a en exponer con nosotros?</p>
+    <p>¡Escríbenos, estaremos encantados de ayudarte!</p>
+    <form action="/submit-contact" method="POST">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="asunto">Tipo de solicitud</label> 
+        <select name="asunto" id="asunto">
+            <option value="compra">Compra</option>
+            <option value="venta">Venta</option>
+            <option value="consulta">Consulta general</option>
+        </select>
+        <label for="message">Mensaje:</label><br> 
+        <label for="message">Mensaje:</label><br> 
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <button type="submit">Enviar</button> 
+    </form> 
+    <h1>📍 Visítanos</h1>
+    <p>Dirección: Av. Libertador Bernardo O'Higgins 1234, Concepción, Chile</p>
+    <p>Horario: Lunes a Viernes de 10:00 a 18:00 hrs.</p>
+    <p>¡Te esperamos!</p>
+    <menu><h1><b>Menu</b></h1></menu>
+    <menu><a href="index.html">Inicio</a></menu>
+    <menu><a href="gallery.html">Obras destacadas</a></menu>
+    <menu><a href="contact.html">Contacto</a></menu>
+</body>
+</html>
